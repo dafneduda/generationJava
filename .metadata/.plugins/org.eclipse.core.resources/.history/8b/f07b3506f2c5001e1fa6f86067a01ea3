@@ -1,0 +1,15 @@
+
+public class exercicios {
+
+	public static void main(String[] args) {
+
+	float salario = 10.000f;
+	float abono = 1.000f;
+	
+	float resp = salario + abono;
+	System.out.println(resp);
+	
+			
+	}
+
+}
