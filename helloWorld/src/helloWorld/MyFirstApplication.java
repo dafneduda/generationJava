@@ -1,4 +1,4 @@
-package Turma72;
+package helloWorld;
 
 public class MyFirstApplication {
 
