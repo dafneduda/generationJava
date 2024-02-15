@@ -9,20 +9,19 @@ public class ListaVetoresMatrizesEx1 {
 		int numeroDigitado;
 
 		Scanner leia = new Scanner(System.in);
-		
 
-			System.out.println("Escolha um número de 1 a 10 para descobrir sua posição na lista: ");
-			numeroDigitado = leia.nextInt();
+		System.out.println("Escolha um número de 1 a 10 para descobrir sua posição na lista: ");
+		numeroDigitado = leia.nextInt();
 
-			for (int i = 0; i < numeros.length; i++) {
+		for (int i = 0; i < numeros.length; i++) {
 
-				if (numeros[i] == numeroDigitado) {
-					System.out.println("O número " + numeroDigitado + " está localizado na posição " + i + " da lista.");
-				}
-				//essa parte do código está imprimindo várias vezes, ainda não entendi o problema
-				else if (numeroDigitado != numeros[i]) {
-					System.out.println("O número " + numeroDigitado + " não foi encontrado");
-				
+			if (numeros[i] == numeroDigitado) {
+				System.out.println("O número " + numeroDigitado + " está localizado na posição " + i + " da lista.");
+			}
+			// essa parte do código está imprimindo várias vezes, ainda não entendi o
+			// problema
+			else if (numeroDigitado != numeros[i]) {
+				System.out.println("O número " + numeroDigitado + " não foi encontrado");
 			}
 		}
 	}
