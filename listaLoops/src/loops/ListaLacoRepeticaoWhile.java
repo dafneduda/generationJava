@@ -14,7 +14,7 @@ public class ListaLacoRepeticaoWhile {
 
 		while (idade >= 0) {
 
-			if (idade > 21) {
+			if (idade < 21) {
 				menores21++;
 				if (idade > 50) {
 					maiores50++;
