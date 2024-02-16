@@ -15,14 +15,12 @@ public class ListaVetoresMatrizesEx1 {
 
 		for (int i = 0; i < numeros.length; i++) {
 
-			if (numeros[i] == numeroDigitado) {
+			if (numeroDigitado == numeros[i]) {
 				System.out.println("O número " + numeroDigitado + " está localizado na posição " + i + " da lista.");
-			}
-			// essa parte do código está imprimindo várias vezes, ainda não entendi o
-			// problema
-			else if (numeroDigitado != numeros[i]) {
-				System.out.println("O número " + numeroDigitado + " não foi encontrado");
+				return;
 			}
 		}
+
+		System.out.println("O número " + numeroDigitado + " não foi encontrado");
 	}
 }
