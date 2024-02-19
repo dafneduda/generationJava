@@ -8,9 +8,9 @@ public class Exercicio6 {
 		int codigoCargo;
 		String nomeColab;
 		float salario;
-		
+
 		Scanner leia = new Scanner(System.in);
-		
+
 		System.out.println("Cód.  - Cargo -   Percentual do Reajuste");
 		System.out.println("\n-- 1:  Gerente 			10%");
 		System.out.println("-- 2:  Vendedor 		7%");
@@ -19,18 +19,18 @@ public class Exercicio6 {
 		System.out.println("-- 5:  Estoquista 		5%");
 		System.out.println("-- 6:  Técnico de TI 		8%");
 
-		System.out.println("\nDigite seu nome completo: ");
+		System.out.print("\nDigite seu nome completo: ");
 		nomeColab = leia.nextLine();
 
-		System.out.println("Digite o Código do seu cargo: ");
+		System.out.print("Digite o Código do seu cargo: ");
 		codigoCargo = leia.nextInt();
 
-		System.out.println("Digite seu salário: ");
+		System.out.print("Digite seu salário: ");
 		salario = leia.nextFloat();
-		
+
 		String nomeCargo = "";
 		float novoSalario = 0f;
-		
+
 		switch (codigoCargo) {
 		case 1:
 			nomeCargo = "Gerente";
@@ -60,7 +60,8 @@ public class Exercicio6 {
 			System.out.println("Opção inválida!");
 		}
 
-		System.out.println("\nNome do colaborador: " + nomeColab + "\nCargo: " + nomeCargo + "\nNovo salário: " + novoSalario);
+		System.out.println(
+				"\nNome do colaborador: " + nomeColab + "\nCargo: " + nomeCargo + "\nNovo salário: " + novoSalario);
 
 	}
 }

@@ -12,14 +12,13 @@ public class EstruturaDeDadosAtividade1 {
 		Queue<String> fila = new LinkedList<>();
 
 		while (true) {
-			System.out.println("\n------------ATENDIMENTO------------\n");
-			System.out.println("------  Selecione uma opção: ------");
+			System.out.println("\n------------ATENDIMENTO------------");
 			System.out.println("1 - Adicionar cliente na fila");
 			System.out.println("2 - Listar todos os clientes");
 			System.out.println("3 - Retirar cliente da fila");
 			System.out.println("0 - SAIR");
-			System.out.println("-----------------------------------");
-
+			System.out.println("------  Entre com uma opção: ------");
+			
 			int opcao = sc.nextInt();
 
 			switch (opcao) {

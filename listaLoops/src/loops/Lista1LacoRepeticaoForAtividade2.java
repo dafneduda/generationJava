@@ -21,16 +21,16 @@ public class Lista1LacoRepeticaoForAtividade2 {
 
 		for (int i = 1; i < 100; i++) {
 
-			for (int i = 1; i <= 10; i++) {
+			//for (int i = 1; i <= 10; i++) {
 				System.out.print("Digite o " + i + "º número: ");
-				numero = leia.nextInt();
+			//	numero = leia.nextInt();
 				
 				
 			}
 		}
 	}
 
-}
+
 
 //No Intervalo entre primeiroNumero e ultimoNumero:
 //é múltiplo de 3 e 5 - AINDA FALTA TERMINAR ESSA PARTE

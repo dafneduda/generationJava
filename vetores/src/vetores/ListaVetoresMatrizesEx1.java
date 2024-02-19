@@ -21,6 +21,6 @@ public class ListaVetoresMatrizesEx1 {
 			}
 		}
 
-		System.out.println("O número " + numeroDigitado + " não foi encontrado");
+		System.out.println("O número " + numeroDigitado + " não foi encontrado.");
 	}
 }

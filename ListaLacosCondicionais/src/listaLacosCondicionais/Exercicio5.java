@@ -54,10 +54,7 @@ public class Exercicio5 {
 		default:
 			System.out.println("Opção inválida, não há produto para número digitado");
 		}
-		
-		System.out.println("Você comprou " + qtde + " " +
-		nomeProduto + "\nValor Total: R$" + valorTotal);
 
+		System.out.println("\nVocê comprou " + qtde + " " + nomeProduto + "\nValor Total: R$" + valorTotal);
 	}
-
 }
