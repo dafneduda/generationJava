@@ -27,6 +27,7 @@ public class EstruturaDeDadosAtividade1 {
 				sc.nextLine();
 				String nome = sc.nextLine();
 				fila.add(nome);
+				System.out.println("Cliente adicionado!");
 				break;
 
 			case 2:
@@ -37,13 +38,16 @@ public class EstruturaDeDadosAtividade1 {
 				System.out.println("Cliente Removido da fila: \n" + fila.remove());
 
 				if (fila.isEmpty()) {
-					System.out.println("Não há mais clientes na fila.");
+					System.out.println("A Fila está vazia!");
 				}
 				break;
 
 			case 0:
 				System.out.println("OBRIGADE! \n");
 				break;
+				
+			default:
+				System.out.println("Opção inválida!");
 			}
 		}
 	}
